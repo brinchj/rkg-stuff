@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Box List</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <table style="width: 21cm">
+      <thead><td></td><td>$name</td></thead>
+      #for p in $ps
+      <tr style="width: 100%">
+	<td style="width: 6cm">$p.name</td>
+	<td style="width:19cm; align: rightl">
+	  <textarea style="width: 95%; height: 2cm; border: 1px #000 solid"></textarea>
+	</td>
+      </tr>
+      #end for
+
+      <tfoot><td></td><td></td></thead>
+    </table>
+
+  </body>
+</html>

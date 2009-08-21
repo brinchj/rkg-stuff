@@ -1,0 +1,29 @@
+body {
+    margin-left: 2cm;
+    width: 21cm;
+    border: 1px solid #000;
+}
+
+
+thead td
+{
+ border-bottom: solid 1px slategray;
+ font-size:   16pt;
+ font-weight: bold;
+}
+tfoot td
+{
+ border-bottom: solid 1px slategray;
+ font-size: 9pt;
+}
+
+
+thead {
+    display: table-header-group;
+}
+tfoot {
+    display: table-footer-group;
+}
+thead th, thead td {
+    position: static;
+}

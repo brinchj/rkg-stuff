@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Strike List</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <table style="width: 21cm">
+      <thead><td></td><td>$name</td><td></td><td></td></thead>
+      #for i in $range($len($ps))
+      <tr style="width: 100%">
+	<td style="width: 1cm">$i</td>
+	<td style="width:18cm">$ps[$i].name</td>
+	<td style="align: right">
+	  <input type="checkbox"/>
+	</td>
+	<td style="width: 1cm">$i</td>
+      </tr>
+      #end for
+
+      <tfoot><td></td><td></td><td></td><td></td></thead>
+    </table>
+
+  </body>
+</html>
