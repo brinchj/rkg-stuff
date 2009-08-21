@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
-import json
+import json, sys
 
-file('ps.dat','w').write(json.dumps([ {'name':n} for n in sorted(file('names.dat').read().strip().split('\n')) ]))
+data = file(sys.argv[1]).read()
+print json.dumps([ {'name':n} for n in sorted(data.strip().split('\n')) ])
