@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Navneskilte</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+      body { border: 0px }
+
+      div.navn {
+      text-align: center;
+      width: 10cm;
+      height: 6.5cm;
+
+      background-image: url('logo.png');
+      background-repeat: no-repeat;
+      background-position: bottom;
+
+      border: 1px solid #000;
+      margin: 5px 5px 5px 5px;
+      }
+
+      div.spacer {
+      width: 1px;
+      height: 5px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    #for p in $ps
+    <div class="navn" style="float: left">
+      <p style="margin-top: 1cm; font-size: 38pt; font-family: Corleone">$p.name</p>
+    </div>
+    #end for
+
+  </body>
+</html>
