@@ -1,0 +1,15 @@
+This file contains installation and/or configuration instructions.
+
+
+* Required Software Packages:
+> SH Shell (Any unix based system)
+> Python 2.6 - http://python.org/
+> Cheetah Template Engine - http://cheetahtemplate.org/
+
+
+* Enabling PDF output
+> To use PDF output you will need a new Firefox (3.0+) and the cli print extension.
+> See: http://torisugari.googlepages.com/commandlineprint2
+
+> Background images and background colors do not work with automated PDF generation.
+> In such cases you will need to perform the PDF convertion manually.

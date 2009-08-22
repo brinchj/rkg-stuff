@@ -1,1 +1,46 @@
-Kode til generering af lister til RKG.
+This file contains usage information.
+
+Please see the file INSTALL for installation and configuration.
+
+
+
+* Adding users to the list
+> Create a list data file, that contains the names on your new list.
+> Example of "data/russere.dat":
+Ernest Hemingway
+Elizabeth Hadley Richardson
+Pauline Pfeiffer
+Martha Gellhorn
+Mary Welsh Hemingway
+
+
+* Convert your input data to a JSON-encoded file
+> This can be achieved using the script "gen-json.py" like so:
+./gen-json.py > data/russere.json
+
+
+* Generate a template for your list
+> Templates are written in the Cheetah template language (Google it!)
+> Available variables are the list $ps, that contains all persons.
+> The following piece of HTML prints a list of all names:
+<HTML><BODY>
+<UL>
+#for p in $ps
+<LI>$p.name</LI>
+#end for
+</UL>
+</BODY></HTML>
+
+> Templates are located in the "templates" directory (look there for more examples).
+
+
+* Build your template
+> This is done using the script "build.sh" like so:
+./build.sh LIST_NAME JSON_FILES
+
+> Example:
+./build.sh hemingway_family data/hemingway.json data/hemingway_wifes.json
+
+> The above example uses the template "templates/hemingway_family.tmpl"
+> HTML output is located in "html/hemingway_family.tmpl"
+> PDF  output is located in "compiled/hemingway_family.pdf"
