@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css"/>
 
     <style type="text/css">
-      body { margin: 0 0 0 0 }
+      body { margin: 0 0 0 0; width: 29cm }
       td.field {
       width: 200px;
       border: 1px solid #000;
@@ -20,6 +20,9 @@
       tr.coloredrow {
       background: #ddd;
       }
+      tr.filler {
+      background: #000;
+      }
     </style>
 
   </head>
@@ -30,11 +33,9 @@
 	<td>&Oslash;l</td><td>Light</td><td>Classic</td><td>Cider</td><td>Cocio</td><td>Vand</td><td>#</td></thead>
 
       #for i in $range($len($ps))
-      #if ((i/2) + 1) % 2 == 0
-      <tr class="row coloredrow">
-	#else
-      <tr class="row">
-	#end if
+      #set $class_extra = ((i/2)+1) % 2 == 0 and "coloredrow" or ""
+      #set $class_extra = $len($ps[$i].name) == 0 and "filler" or $class_extra
+      <tr class="row $class_extra">
 	<td style="width: 1cm">$i</td>
 	<td style="width: 4cm"><b>$ps[$i].name</b></td>
 	#for j in $range(6)
