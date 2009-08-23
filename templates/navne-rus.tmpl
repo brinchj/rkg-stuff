@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Navneskilte</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+      body { border: 0px; width: 21cm; margin: 0px 0px 0px 0px }
+
+      div.navn {
+      //text-align: center;
+      //width: 9cm;
+      //height: 5.5cm;
+
+      /** kun logo for vejledere ;-)
+      background-image: url('logo.png');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      **/
+      }
+
+      div.spacer {
+      width: 1px;
+      height: 5px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <!-- Below style CSS is quite nasty - centers both vertically and
+	 horizontally.. Looking forward to CSS3.
+      -->
+    #for i in $range($len($ps))
+    <div style="display: table; height: 5.5cm; width: 9cm; overflow:
+		hidden; border: 1px solid #000; text-align: center;
+		margin: 5px 5px 5px 5px; float: left">
+      <div style="display: table-cell; vertical-align: middle; height:
+		  100%; width: 100%; ">
+	<div class="navn">
+	  <p style="margin: 0cm 10px 20px 20px; font-size: 38pt; font-family: Corleone">$ps[i].name</p>
+	</div>
+      </div>
+    </div>
+    #if ($i+1) % 4 == 0
+    <div style="page-break-after: always"></div>
+    #end if
+    #end for
+
+  </body>
+</html>
