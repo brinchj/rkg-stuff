@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Betalt</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+      body { width: 19cm }
+    </style>
+  </head>
+  <body>
+
+    <table style="width: 19cm">
+      <thead><td>#</td><td>Hvem Betalte:</td>
+	<td style="text-align: center">100 DKR</td>
+	<td style="text-align: center">350 DKR</td><td>#</td></thead>
+      #for i in $range($len($ps))
+
+      #if (i%2) == 0
+      <tr style="width: 100%">
+	#else
+      <tr style="width: 100%; background-color: #ddd">
+	#end if
+	<td style="width: 1cm">$i</td>
+	<td style="width: 8cm">$ps[$i].name</td>
+	<td style="align: right; text-align: center">
+	  <input type="checkbox"/>
+	</td>
+	<td style="align: right; text-align: center">
+	  <input type="checkbox"/>
+	</td>
+	<td style="width: 1cm">$i</td>
+      </tr>
+      #end for
+
+      <tfoot><td></td><td></td><td></td><td></td></tfoot>
+    </table>
+
+  </body>
+</html>
