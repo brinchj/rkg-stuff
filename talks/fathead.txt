@@ -1,0 +1,26 @@
+Fathead
+
+Jeg havde tyvstartet lidt på datalogi ved at programmere i Java og PHP
+i gymnasiet. Udover det havde jeg Datalogi som valgfag i 3.G. Men jeg
+havde primært kun kodet små enkeltstående programmer, ikke nogen
+større projekter.
+
+På rusturen mødte jeg flere andre studerende jeg snakkede godt med, og
+så nogle jeg faldt helt i hak med. Det var her jeg fik de venner jeg
+arbejdede sammen med resten af første år.
+
+Jeg anede intet om LaTeX, Linux og SML. De 3 teknologier, som er nye
+for de fleste førsteårsstuderende. Men det skulle jo læres. SML er det
+programmeringssprog bliver, der blier gennemgået i første blok. LaTeX
+og Linux blev der ikke undervist i, så måtte Google hjælpe til.
+
+Et halvt år inde i året erstattede jeg min "Windows XP" installation
+med en sprit ny "Ubuntu Linux". Jeg havde ikke de store problemer med at
+omstille mig og er idag meget glad for min "Gentoo Linux".
+
+Jeg skrev førsteårsprojekt sammen med en ven fra rusturen og så en ven
+fra Fysik, der læste datalogi som sidefag.
+
+Sidst på året var jeg inde og se Revyen, der efter min mening er
+DIKU's vigtigste sociale arrangement. Oplevelsen efterlod så stort et
+indtryk, at jeg selvfølgelig meldte mig næste år ;-)
