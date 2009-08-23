@@ -3,23 +3,34 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Tekst</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Fest</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+	body { width: 21cm }
+    </style>
   </head>
   <body>
 
     <table style="width: 21cm">
-      <thead><td>Gangster</td><td>Iventar</td></thead>
-      #for p in $ps
+      <thead><td>#</td><td>Gangster Inventar</td><td style="text-align: center">
+	  </td><td>#</td></thead>
+      #for i in $range($len($ps))
+
+      #if (i%2) == 0
       <tr style="width: 100%">
-	<td style="width: 6cm">$p.name</td>
-	<td style="width:19cm; align: rightl">
-	  <textarea style="width: 95%; height: 2cm; border: 1px #000 solid"></textarea>
+	#else
+      <tr style="width: 100%; background-color: #ddd">
+	#end if
+	<td style="width: 1cm">$i</td>
+	<td style="width: 6cm">$ps[$i].name</td>
+	<td style="align: right; text-align: center">
+	  <textarea style="border: 1px solid #000; width: 100%"></textarea>
 	</td>
+	<td style="width: 1cm">$i</td>
       </tr>
       #end for
 
-      <tfoot><td></td><td></td></thead>
+      <tfoot><td></td><td></td><td></td><td></td></tfoot>
     </table>
 
   </body>
