@@ -7,12 +7,12 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <style type="text/css">
-      body { border: 0px }
+      body { border: 0px; width: 21cm; margin: 0px 0px 0px 0px }
 
       div.navn {
       text-align: center;
-      width: 10cm;
-      height: 6.5cm;
+      width: 9cm;
+      height: 5.5cm;
 
       background-image: url('logo.png');
       background-repeat: no-repeat;
@@ -32,10 +32,13 @@
   </head>
   <body>
 
-    #for p in $ps
+    #for i in $range($len($ps))
     <div class="navn" style="float: left">
-      <p style="margin-top: 1cm; font-size: 38pt; font-family: Corleone">$p.name</p>
+      <p style="margin-top: 1cm; font-size: 38pt; font-family: Corleone">$ps[i].name</p>
     </div>
+    #if ($i+1) % 4 == 0
+    <div style="page-break-after: always"></div>
+    #end if
     #end for
 
   </body>
