@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <style type="text/css">
-      body { border: 0px; width: 21cm; margin: 0px 0px 0px 0px }
+      body { border: 0px; width: 26cm; margin: 0px 0px 0px 0px }
 
       div.navn {
       //text-align: center;
@@ -35,20 +35,16 @@
 	 horizontally.. Looking forward to CSS3.
       -->
     #for i in $range($len($ps))
-    <div style="display: table; height: 5.5cm; width: 9cm; overflow:
-		hidden; border: 1px solid #000; text-align: center;
-		margin: 5px 5px 5px 5px; float: left">
+    <div style="display: table; height: 16cm; width: 26cm; overflow:
+		hidden; text-align: center; float: left">
       <div style="display: table-cell; vertical-align: middle; height:
 		  100%; width: 100%; ">
 	<div class="navn">
-	  <p style="font-size: 24pt; font-family: Corleone">$ps[i].name</p>
-	  <p style="font-size: 18pt; font-family: Corleone"><i>[ $ps[i].team ]</i></p>
+	  <p style="margin: 0cm 10px 20px 20px; font-size: 120pt; font-family: Corleone">$ps[i].name</p>
 	</div>
       </div>
     </div>
-    #if ($i+1) % 4 == 0
     <div style="page-break-after: always"></div>
-    #end if
     #end for
 
   </body>
