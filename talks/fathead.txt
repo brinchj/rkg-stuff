@@ -1,9 +1,13 @@
 Fathead
 
+
 Jeg havde tyvstartet lidt på datalogi ved at programmere i Java og PHP
 i gymnasiet. Udover det havde jeg Datalogi som valgfag i 3.G. Men jeg
 havde primært kun kodet små enkeltstående programmer, ikke nogen
-større projekter.
+større projekter. Jeg gik direkte fra gymnasiet og startede på DIKU i
+september 2005.
+
+
 
 På rusturen mødte jeg flere andre studerende jeg snakkede godt med, og
 så nogle jeg faldt helt i hak med. Det var her jeg fik de venner jeg
@@ -12,7 +16,7 @@ arbejdede sammen med resten af første år.
 Jeg anede intet om LaTeX, Linux og SML. De 3 teknologier, som er nye
 for de fleste førsteårsstuderende. Men det skulle jo læres. SML er det
 programmeringssprog bliver, der blier gennemgået i første blok. LaTeX
-og Linux blev der ikke undervist i, så måtte Google hjælpe til.
+og Linux blev der ikke undervist i, så der måtte Google hjælpe til.
 
 Et halvt år inde i året erstattede jeg min "Windows XP" installation
 med en sprit ny "Ubuntu Linux". Jeg havde ikke de store problemer med at
@@ -23,4 +27,58 @@ fra Fysik, der læste datalogi som sidefag.
 
 Sidst på året var jeg inde og se Revyen, der efter min mening er
 DIKU's vigtigste sociale arrangement. Oplevelsen efterlod så stort et
-indtryk, at jeg selvfølgelig meldte mig næste år ;-)
+indtryk, at jeg selvfølgelig meldte mig næste år.
+
+
+
+På andet år tog jeg kurser i TOPPS og Algoritmik. TOPPS gruppen
+arbejder med udvikling af programmeringssprog og teori deromkring,
+mens algoritmik gruppen arbejder med løsning af matematiske problemer,
+som f.eks. at finde den korteste vej fra et punkt til et andet. Jeg
+fandt ud af, at jeg fandt algoritmekurserne mest interessante.
+
+I starten af året havde jeg været med til første Revymøde og havde
+derefter meldt mig i Revygruppen. Jeg endte med at være skuespiller i
+årets Revy - en virkelig fed oplevelse!
+
+En af mine venner skaffede mig mit første IT-relevante job som
+supporter i en mindre virksomhed. Det var ikke et særligt spændende
+job, men det var et godt springbræt videre. Senere på året blev
+virksomheden opkøbt, og jeg skiftede stilling til udvikler.
+
+
+
+Mit tredje år startede med et halvt års matematik. På DIKU er det et
+krav, at man læser mindst et halvt år udenfor datalogi, for at få en
+bredere uddannelse. Jeg fandt matematik relevant.
+
+Jeg endte med at skrive mit bachelorprojekt i Algoritmik. Det blev
+afleveret 1 uge efter Revyen, hvor jeg endnu engang var skuespiller.
+Jeg skrev projektet alene, da der ikke lige var nogle oplagte
+samarbejdspartnere, der skulle til at skrive projekt.
+
+I blok 4 var jeg instruktor på Databasekurset. Det var en sjov og
+lærerrig oplevelse, som jeg helt sikkert gerne vil gentage.
+
+Sidst på året var jeg endnu engang med i Revyen - endnu engang en
+rigtig god oplevelse!
+
+I sommerferien skiftede jeg jobbet ud med en bedre lønnet og mere
+interessant stilling i en forksningsbaseret medicinalvirksomhed.
+
+
+
+På mit fjerde år fandt jeg glæden ved projekter. På DIKU er der gode
+muligheder for at skrive projekter i en af forskningsgrupperne, så
+snart man er bachelor. Første halvår skrev jeg et projekt om
+forudsigeligheden i Mozarts musik - mere specifikt undersøgte med hvor
+høj sandsynlighed man kunne forudsige akkorderne i musikken. Andet
+halvår skrev jeg endnu et projekt, der forsøgte at sandsynliggøre
+normaliteten af en særlig gruppe polynomierødder. Begge projekter var
+spændende og lærerrige.
+
+Jeg afsluttede året ved endnu engang at være med i Revyen - stadig
+ligeså fedt som første gang!
+
+
+
